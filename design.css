@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+header{
+    height: 108px;
+    border-bottom: 2px solid rgb(154, 153, 155) ;
+    display: flex;
+    
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    /* justify-items: center; */
+}
+
+h1{
+    color: white;
+    background-color: rgb(99, 86, 174);
+    padding: 10px 20px;
+    border: 2px solid #b98080; /* Set border thickness and color */
+    border-radius: 15px; /* Set the curvature of the corners */
+    padding: 20px; /* Optional, adds space inside the div */
+    
+}
+
+
+
+.nav-img{
+    height: 50px;
+    width: 48px;
+    margin-left: 36px;
+}
+
+#square{
+    height: 400px;
+    width: 400px;
+    background-color: palegreen;
+    border-radius: 60px;
+    transform: rotate(20deg);
+}
