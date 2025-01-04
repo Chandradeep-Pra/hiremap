@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: black;
+    font-family: 'Inter',sans-serif;
     
 }
 
@@ -16,32 +18,23 @@ header{
     /* background-color: blue; */
     align-items: center;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 0 12rem;
     /* justify-items: center; */
 }
 
 h1{
     color: white;
-    background-color: rgb(99, 86, 174);
     padding: 10px 20px;
-    border: 2px solid #b98080; /* Set border thickness and color */
-    border-radius: 15px; /* Set the curvature of the corners */
     padding: 20px; /* Optional, adds space inside the div */
-    
+    font-family: 'Montserrat';
 }
 
-
+#iconBox{
+    display: flex;
+    gap: 36px;
+}
 
 .nav-img{
     height: 50px;
     width: 48px;
-    margin-left: 36px;
-}
-
-#square{
-    height: 400px;
-    width: 400px;
-    background-color: palegreen;
-    border-radius: 60px;
-    transform: rotate(20deg);
 }
